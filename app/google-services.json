@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "968235785297",
+    "firebase_url": "https://inmates-f6c7f.firebaseio.com",
+    "project_id": "inmates-f6c7f",
+    "storage_bucket": "inmates-f6c7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968235785297:android:90b9cefff67b80f0",
+        "android_client_info": {
+          "package_name": "com.example.android.inmates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968235785297-mn3pnqohma16ccpnfkkkp1cnq063oc7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2OtcWP6eDXl4A6veVLn5mxJebSIh9T4E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3949AB"
+    android:fitsSystemWindows="true">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="#3949AB"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need"
+        android:textStyle="bold"
+        android:background="#3949AB"
+        android:textColor="#CDDC39"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#3949AB"
+        android:text="@string/Paragraph"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3949AB"
+        android:textStyle="bold"
+        android:text="Instructions to use the App"
+        android:textColor="#CDDC39"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/Paragraph1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#CDDC39"
+        android:text="App Designers" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Deepesh 2016IPG-113"/>
+   
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textColor="#FFFFFF" />
+
+
+
+</LinearLayout>
+</ScrollView>

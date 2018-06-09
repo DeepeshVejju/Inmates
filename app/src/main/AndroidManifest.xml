@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.inmates">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ComplaintPage" />
+        <activity android:name=".ListPage" />
+        <activity android:name=".InterfacePage" />
+        <activity android:name=".MessagePage" />
+        <activity android:name=".FeedbackPage" />
+        <activity android:name=".AboutPage" />
+        <activity android:name=".ComplaintPage2" />
+        <activity android:name=".ComplaintPage3" />
+        <activity android:name=".ComplaintPage4" />
+        <activity android:name=".ComplaintPage5" />
+        <activity android:name=".ComplaintPage6" />
+        <activity android:name=".ComplaintPage7" />
+        <activity android:name=".ComplaintPage8" />
+        <activity android:name=".ComplaintPage9" />
+        <activity android:name=".ComplaintPage10" />
+        <activity android:name=".ComplaintPage11" />
+        <activity android:name=".ComplaintPage12"></activity>
+    </application>
+
+</manifest>

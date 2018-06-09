@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">INMATES</string>
+    <string name="Paragraph">Many a times,Hostelers face problems related to repair,to replace,to get permission,to get complain etc., about faults in the Hostel System.
+        According to survey, done with selecting few students within a hostel it is concluded that over 50% of them are not satisfied with as-is system.
+        To overcome this problem a user friendly interface is built to register complaints and to get permissions in a easy manner.</string>
+    <string name="Paragraph1">First user has to Sign-Up by entering details mentioned which are secured in database to verify during Sign-In and Password forgot cases.
+        Next user has to Sign-In using his E-Mail Id and Password and taken to an interface where he can complaint and get permissions, he can also give feedback and suggestions about app so it could be developed further to make it simpler to use and provide new oiptions.
+        The Complaint Page has multiple options relating to different services of complaints or permissions retrieval's .
+        The user must provide further description about complaint or permission he requests of and additional information like(Roll-Number, Room-Number, Hostel-Number etc.).
+
+    </string>
+
+</resources>

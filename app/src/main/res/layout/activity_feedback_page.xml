@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="110dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Comments"
+        android:padding="16dp"
+        android:layout_marginLeft="130dp"
+        android:textAlignment="center"
+        android:inputType="textMultiLine"
+        android:id="@+id/comments"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Suggestions"
+        android:padding="16dp"
+        android:layout_marginLeft="125dp"
+        android:textAlignment="center"
+        android:inputType="textMultiLine"
+        android:id="@+id/suggestions"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate Us"
+        android:padding="12dp"
+        android:textAlignment="center"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:layout_marginLeft="75dp"
+        android:id="@+id/ratingbar"/>
+    <Button
+        android:id="@+id/btn_feedbacksubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="SUBMIT"
+        android:layout_marginLeft="140dp"/>
+</LinearLayout>
